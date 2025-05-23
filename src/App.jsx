@@ -56,15 +56,6 @@ export const App = () => {
                   >
                     -
                   </button>
-                ) : selectedGood === '' ? (
-                  <button
-                    data-cy="AddButton"
-                    type="button"
-                    className="button"
-                    onClick={() => setValue(good)}
-                  >
-                    +
-                  </button>
                 ) : (
                   <button
                     data-cy="AddButton"
